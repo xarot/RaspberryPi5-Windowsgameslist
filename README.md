@@ -2,10 +2,16 @@
 
 My short list of games working on the Raspberry PI 5 (Steam, GOG, Wine etc.)
 
+## Notes
+
+Doesn't look like it's worth trying anything newer that uses heavily 3D effects or is newer than 2000~2002. So far, no luck getting Max Payne or Crysis/Crysis Warhead to work. Updating list whenever I have the patience to deal with the amount of time it takes to test any game I have.
+
 ## Tools
 
 Ubuntu x64/Raspberry PI OS + Pi-Apps + Box86 + Box64 + Steam
+
 GoG games standalone .exe installers downloaded via GoG website
+
 Flatpak for OpenMW (sudo apt install openmw version always crashes in Ubuntu)
 
 ## Steam
