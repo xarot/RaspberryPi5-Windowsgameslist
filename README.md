@@ -1,6 +1,6 @@
 # Introduction
 
-What if you had only Raspberry Pi5 as desktop computer with you on a lone island? This is a list of games working on the Raspberry PI 5 (Steam, GOG, Wine etc.). After testing some games for days or trying to make them work, I can safely say RPI5 is not meant for any kind of serious gaming. However, it can run a few games at acceptable speed.
+What if you had only Raspberry Pi5 as gaming desktop computer with you on a lone island? This is a list of games working on the Raspberry PI 5 (Steam, GOG, Wine etc.). After testing some games for days or trying to make them work, I can safely say RPI5 is not meant for any kind of serious gaming. However, it can run a few games at acceptable speed.
 
 ## Notes
 
@@ -15,6 +15,21 @@ Ubuntu x64/Raspberry PI OS + Pi-Apps + Box86 + Box64 + Steam
 GoG games standalone .exe installers downloaded via GoG website
 
 Flatpak for OpenMW (sudo apt install openmw version always crashes in Ubuntu)
+
+Fix mouse stuttering by modifying the file:
+
+```
+sudo nano /boot/firmware/cmdline.txt
+```
+Add newline or end of the string without quotes: "usbhid.mousepoll=0"
+```
+sudo nano /boot/firmware/cmdline.txt
+sudo apt update
+sudo apt full-upgrade
+sudo reboot
+
+```
+
 
 ## Steam
 
