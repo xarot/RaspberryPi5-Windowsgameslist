@@ -1,15 +1,14 @@
 # Introduction
 
-List of games working on the Raspberry PI 5 (Steam, GOG, Wine etc.)
+My short list of games working on the Raspberry PI 5 (Steam, GOG, Wine etc.)
 
 ## Tools
 
-Ubuntu x64 + Pi-Apps + Box86 + Box64 + Steam
+Ubuntu x64/Raspberry PI OS + Pi-Apps + Box86 + Box64 + Steam
 GoG games standalone .exe installers downloaded via GoG website
-Flatpak for OpenMW (sudo apt install openmw version always crashes)
+Flatpak for OpenMW (sudo apt install openmw version always crashes in Ubuntu)
 
 ## Steam
-
 
 | RPI model | Game | OS | Configuration | Remarks | 
 |-----------|------|----|---------------|---------|
@@ -17,6 +16,7 @@ Flatpak for OpenMW (sudo apt install openmw version always crashes)
 | RPI 5 16GB | Half-Life 2 | Ubuntu 24.04.3 LTS aarch64 | ??? | Runs at 0-1 fps
 | RPI 5 16GB | Call of Duty 2 | Ubuntu 24.04.3 LTS aarch64 | Proton Hotfix + PROTON_USE_WINED3D=1 %command% | Runs very poorly 
 | RPI 5 16GB | The Secret of Monkey Island Special Edition | Ubuntu 24.04.3 LTS aarch64 | Proton 9.0-4 + PROTON_USE_WINED3D=1 %command% | Runs very well
+| RPI 5 16GB | Aliens vs Predator classic 2000 | Raspberry PI OS 64-bit | ??? | Runs okay
 
 ## GoG
 
@@ -32,4 +32,5 @@ Flatpak for OpenMW (sudo apt install openmw version always crashes)
 | RPI model | Game | OS | Configuration | Remarks | 
 |-----------|------|----|---------------|---------|
 | RPI 5 16GB | OpenMW (Morrowind) | Ubuntu 24.04.3 LTS aarch64 | OpenMW installed via Flatpak | Runs okay, but performance tanks outside
+| RPI 5 16GB | Quake2 (multiplayer, may work for single as well) | Ubuntu 24.04.3 LTS aarch64 | wine q2pro.exe | Runs very well but some mouse stuttering. Requires Q2PRO client
 
