@@ -1,6 +1,6 @@
 # Introduction
 
-List of games working on the Raspberry PI 5 (Steam, GOG, Wine etc.)
+What if you had only Raspberry Pi5 as desktop computer with you on a lone island? This is a list of games working on the Raspberry PI 5 (Steam, GOG, Wine etc.). After testing some games for days or trying to make them work, I can safely say RPI5 is not meant for any kind of serious gaming. However, it can run a few games at acceptable speed.
 
 ## Notes
 
@@ -23,7 +23,7 @@ Flatpak for OpenMW (sudo apt install openmw version always crashes in Ubuntu)
 |-----------|------|----|---------------|---------|
 | RPI 5 16GB | Alien vs Predator Classic 2000 | Ubuntu 24.04.3 LTS aarch64 | Proton Hotfix + PROTON_USE_WINED3D=1 %command% | Runs quite well, but a bit laggy
 | RPI 5 16GB | Amnesia: The Dark Descent | Ubuntu 24.04.3 LTS aarch64 | Proton Hotfix + PROTON_USE_WINED3D=1 %command% | Runs very poor, like 5 fps at 640x480
-| RPI 5 16GB | Call of Duty 2 | Ubuntu 24.04.3 LTS aarch64 | Proton Hotfix + PROTON_USE_WINED3D=1 %command% | Runs very poorly 
+| RPI 5 16GB | Call of Duty 2 | Ubuntu 24.04.3 LTS aarch64 | Proton Hotfix + PROTON_USE_WINED3D=1 %command% | Runs at like 5 fps 
 | RPI 5 16GB | Gabriel Knight: Sins of the Fathers remake | Ubuntu 24.04.3 LTS aarch64 | Proton Hotfix + PROTON_USE_WINED3D=1 %command% | Runs very well
 | RPI 5 16GB | Half-Life | Ubuntu 24.04.3 LTS aarch64 | Proton Hotfix + PROTON_USE_WINED3D=1 %command%  | Runs well, but some graphics effects slow the game down to 1-2 fps 
 | RPI 5 16GB | Half-Life 2 | Ubuntu 24.04.3 LTS aarch64 | Proton Hotfix PROTON_USE_WINED3D=1 %command% | Runs okay
@@ -35,8 +35,8 @@ Flatpak for OpenMW (sudo apt install openmw version always crashes in Ubuntu)
 
 | RPI model | Game | OS | Configuration | Remarks | 
 |-----------|------|----|---------------|---------|
-| RPI 5 16GB | Broken Sword 5 | Ubuntu 24.04.3 LTS aarch64 | Lutris + GoG exe installation + wine-ge-8-26-x86_64 | Runs okay
-| RPI 5 16GB | Fallout 2 Classic | Ubuntu 24.04.3 LTS aarch64 | Lutris + GoG exe installation + wine-ge-8-26-x86_64 | Runs okay
+| RPI 5 16GB | Broken Sword 5 | Ubuntu 24.04.3 LTS aarch64 | Lutris + GoG exe installation + wine-ge-8-26-x86_64 | Runs very well
+| RPI 5 16GB | Fallout 2 Classic | Ubuntu 24.04.3 LTS aarch64 | Lutris + GoG exe installation + wine-ge-8-26-x86_64 | Runs okay, feels a bit slow
 | RPI 5 16GB | Full Throttle Remastered | Ubuntu 24.04.3 LTS aarch64 | Lutris + GoG exe installation + wine-ge-8-26-x86_64 | Runs very well
 | RPI 5 16GB | Shadowgate | Ubuntu 24.04.3 LTS aarch64 | Lutris + GoG exe installation + wine-ge-8-26-x86_64 | Runs very well
 
