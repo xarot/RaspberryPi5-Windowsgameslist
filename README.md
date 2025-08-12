@@ -23,7 +23,6 @@ sudo nano /boot/firmware/cmdline.txt
 ```
 Add newline or end of the string without quotes: "usbhid.mousepoll=0"
 ```
-sudo nano /boot/firmware/cmdline.txt
 sudo apt update
 sudo apt full-upgrade
 sudo reboot
@@ -34,32 +33,32 @@ sudo reboot
 ## Steam
 
 
-| RPI model | Game | OS | Configuration | Remarks | 
+| RPI model | Game | OS | Configuration | Performance Remarks | 
 |-----------|------|----|---------------|---------|
-| RPI 5 16GB | Alien vs Predator Classic 2000 | Ubuntu 24.04.3 LTS aarch64 | Proton Hotfix + PROTON_USE_WINED3D=1 %command% | Runs quite well, but a bit laggy
-| RPI 5 16GB | Amnesia: The Dark Descent | Ubuntu 24.04.3 LTS aarch64 | Proton Hotfix + PROTON_USE_WINED3D=1 %command% | Runs very poor, like 5 fps at 640x480
-| RPI 5 16GB | Call of Duty 2 | Ubuntu 24.04.3 LTS aarch64 | Proton Hotfix + PROTON_USE_WINED3D=1 %command% | Runs at like 5 fps 
-| RPI 5 16GB | Gabriel Knight: Sins of the Fathers remake | Ubuntu 24.04.3 LTS aarch64 | Proton Hotfix + PROTON_USE_WINED3D=1 %command% | Runs very well
-| RPI 5 16GB | Half-Life | Ubuntu 24.04.3 LTS aarch64 | Proton Hotfix + PROTON_USE_WINED3D=1 %command%  | Runs well, but some graphics effects slow the game down to 1-2 fps 
-| RPI 5 16GB | Half-Life 2 | Ubuntu 24.04.3 LTS aarch64 | Proton Hotfix PROTON_USE_WINED3D=1 %command% | Runs okay
-| RPI 5 16GB | Lamplight City | Ubuntu 24.04.3 LTS aarch64 | Proton Hotfix + PROTON_USE_WINED3D=1 %command% | Runs very well
-| RPI 5 16GB | The Legend of Grimrock | Ubuntu 24.04.3 LTS aarch64 | Proton Hotfix + PROTON_USE_WINED3D=1 %command% | Runs very well
-| RPI 5 16GB | The Secret of Monkey Island Special Edition | Ubuntu 24.04.3 LTS aarch64 | Proton 9.0-4 + PROTON_USE_WINED3D=1 %command% | Runs very well
+| RPI 5 16GB | Alien vs Predator Classic 2000 | Ubuntu 24.04.3 LTS aarch64 | Proton Hotfix + PROTON_USE_WINED3D=1 %command% | Good - a bit laggy 
+| RPI 5 16GB | Amnesia: The Dark Descent | Ubuntu 24.04.3 LTS aarch64 | Proton Hotfix + PROTON_USE_WINED3D=1 %command% | Poor - like 5 fps at 640x480
+| RPI 5 16GB | Call of Duty 2 | Ubuntu 24.04.3 LTS aarch64 | Proton Hotfix + PROTON_USE_WINED3D=1 %command% | Poor - ike 5 fps 
+| RPI 5 16GB | Gabriel Knight: Sins of the Fathers remake | Ubuntu 24.04.3 LTS aarch64 | Proton Hotfix + PROTON_USE_WINED3D=1 %command% | Good
+| RPI 5 16GB | Half-Life | Ubuntu 24.04.3 LTS aarch64 | Proton Hotfix + PROTON_USE_WINED3D=1 %command%  | Good - but some graphics effects slow the game down to 1-2 fps 
+| RPI 5 16GB | Half-Life 2 | Ubuntu 24.04.3 LTS aarch64 | Proton Hotfix PROTON_USE_WINED3D=1 %command% | Good - very quick test
+| RPI 5 16GB | Lamplight City | Ubuntu 24.04.3 LTS aarch64 | Proton Hotfix + PROTON_USE_WINED3D=1 %command% | Great
+| RPI 5 16GB | The Legend of Grimrock | Ubuntu 24.04.3 LTS aarch64 | Proton Hotfix + PROTON_USE_WINED3D=1 %command% | Acceptable
+| RPI 5 16GB | The Secret of Monkey Island Special Edition | Ubuntu 24.04.3 LTS aarch64 | Proton 9.0-4 + PROTON_USE_WINED3D=1 %command% | Great
 
 ## GoG
 
-| RPI model | Game | OS | Configuration | Remarks | 
+| RPI model | Game | OS | Configuration | Performance Remarks | 
 |-----------|------|----|---------------|---------|
-| RPI 5 16GB | Broken Sword 5 | Ubuntu 24.04.3 LTS aarch64 | Lutris + GoG exe installation + wine-ge-8-26-x86_64 | Runs very well
-| RPI 5 16GB | Fallout 2 Classic | Ubuntu 24.04.3 LTS aarch64 | Lutris + GoG exe installation + wine-ge-8-26-x86_64 | Runs okay, feels a bit slow
-| RPI 5 16GB | Full Throttle Remastered | Ubuntu 24.04.3 LTS aarch64 | Lutris + GoG exe installation + wine-ge-8-26-x86_64 | Runs very well
-| RPI 5 16GB | Shadowgate | Ubuntu 24.04.3 LTS aarch64 | Lutris + GoG exe installation + wine-ge-8-26-x86_64 | Runs very well
+| RPI 5 16GB | Broken Sword 5 | Ubuntu 24.04.3 LTS aarch64 | Lutris + GoG exe installation + wine-ge-8-26-x86_64 | Great
+| RPI 5 16GB | Fallout 2 Classic | Ubuntu 24.04.3 LTS aarch64 | Lutris + GoG exe installation + wine-ge-8-26-x86_64 | Acceptable
+| RPI 5 16GB | Full Throttle Remastered | Ubuntu 24.04.3 LTS aarch64 | Lutris + GoG exe installation + wine-ge-8-26-x86_64 | Great
+| RPI 5 16GB | Shadowgate | Ubuntu 24.04.3 LTS aarch64 | Lutris + GoG exe installation + wine-ge-8-26-x86_64 | Good
 
 ## Other
 
 | RPI model | Game | OS | Configuration | Remarks | 
 |-----------|------|----|---------------|---------|
-| RPI 5 16GB | OpenMW (Morrowind) | Ubuntu 24.04.3 LTS aarch64 | OpenMW installed via Flatpak | Runs okay, but performance tanks outside
-| RPI 5 16GB | Quake2 (multiplayer, may work for single as well) | Ubuntu 24.04.3 LTS aarch64 | wine q2pro.exe | Runs very well but some mouse stuttering. Requires Q2PRO client
-| RPI 5 16GB | No One Lives Forever (nolfrevival.tk version) | Ubuntu 24.04.3 LTS aarch64 | Start from launch menu | Runs poorly, heavy lag
+| RPI 5 16GB | OpenMW (Morrowind) | Ubuntu 24.04.3 LTS aarch64 | OpenMW installed via Flatpak | Acceptable - performance tanks outside
+| RPI 5 16GB | Quake2 (multiplayer, may work for single as well) | Ubuntu 24.04.3 LTS aarch64 | wine q2pro.exe | Great - some mouse stuttering. Requires Q2PRO client
+| RPI 5 16GB | No One Lives Forever (nolfrevival.tk version) | Ubuntu 24.04.3 LTS aarch64 | Start from launch menu | Poor - low FPS and heavy lag
 
