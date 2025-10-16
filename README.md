@@ -36,14 +36,17 @@ sudo reboot
 | RPI model | Game | OS | Configuration | Performance Remarks | 
 |-----------|------|----|---------------|---------|
 | RPI 5 16GB | Alien vs Predator Classic 2000 | Ubuntu 24.04.3 LTS aarch64 | Proton Hotfix + PROTON_USE_WINED3D=1 %command% | Good - a bit laggy 
-| RPI 5 16GB | Amnesia: The Dark Descent | Ubuntu 24.04.3 LTS aarch64 | Proton Hotfix + PROTON_USE_WINED3D=1 %command% | Poor - like 5 fps at 640x480
-| RPI 5 16GB | Call of Duty 2 | Ubuntu 24.04.3 LTS aarch64 | Proton Hotfix + PROTON_USE_WINED3D=1 %command% | Poor - ike 5 fps 
+| RPI 5 16GB | Amnesia: The Dark Descent | Ubuntu 24.04.3 LTS aarch64 / Raspberry Pi OS 64-bit | Proton Hotfix + PROTON_USE_WINED3D=1 %command% | Poor - like 10 fps at 640x480
+| RPI 5 16GB | Call of Duty 2 | Ubuntu 24.04.3 LTS aarch64 | Proton Hotfix + PROTON_USE_WINED3D=1 %command% | Poor - like 5-10 fps 
 | RPI 5 16GB | Gabriel Knight: Sins of the Fathers remake | Ubuntu 24.04.3 LTS aarch64 | Proton Hotfix + PROTON_USE_WINED3D=1 %command% | Good
 | RPI 5 16GB | Half-Life | Ubuntu 24.04.3 LTS aarch64 | Proton Hotfix + PROTON_USE_WINED3D=1 %command%  | Good - but some graphics effects slow the game down to 1-2 fps 
 | RPI 5 16GB | Half-Life 2 | Ubuntu 24.04.3 LTS aarch64 | Proton Hotfix PROTON_USE_WINED3D=1 %command% | Good - very quick test
 | RPI 5 16GB | Lamplight City | Ubuntu 24.04.3 LTS aarch64 | Proton Hotfix + PROTON_USE_WINED3D=1 %command% | Great
 | RPI 5 16GB | The Legend of Grimrock | Ubuntu 24.04.3 LTS aarch64 | Proton Hotfix + PROTON_USE_WINED3D=1 %command% | Acceptable
 | RPI 5 16GB | The Secret of Monkey Island Special Edition | Ubuntu 24.04.3 LTS aarch64 | Proton 9.0-4 + PROTON_USE_WINED3D=1 %command% | Great
+| RPI 5 16GB | The Elder Scrolls IV: Oblivion GotY | Ubuntu 24.04.3 LTS aarch64 | Proton ??? + PROTON_USE_WINED3D=1 %command% | Bad - like 20-30 fps at minimum settings and resolution (but, it works!)
+| RPI 5 16GB | Risen | Raspberry Pi OS 64-bit | Proton Hotfix + PROTON_USE_WINED3D=1 %command% | Bad - like 10-15 fps at minimum settings and resolution
+| RPI 5 16GB | Call of Duty: Black Ops | Raspberry Pi OS 64-bit | Proton Hotfix + PROTON_USE_WINED3D=1 %command% | Bad - like 5 fps at minimum settings and resolution (but, it works!)
 
 ## GoG
 
