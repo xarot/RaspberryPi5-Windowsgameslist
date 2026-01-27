@@ -4,7 +4,7 @@ What if you had only Raspberry Pi5 as gaming desktop computer with you on a lone
 
 ## Notes
 
-Doesn't look like it's worth trying anything newer that uses heavily 3D effects or is newer than 2000~2002. So far, no luck getting Max Payne or Crysis/Crysis Warhead to work. Updating list whenever I have the patience to deal with the amount of time it takes to test any game I have. For some reason, DXVK doesn't seem to be working with Wine at all.
+Doesn't look like it's worth trying anything newer that uses heavily 3D effects or is newer than 2000~2002. Updating list whenever I have the patience to deal with the amount of time it takes to test any game I have. For some reason, DXVK doesn't seem to be working with Wine at all.
 
 For Steam, install games in Large mode. After installation and configuration, use Steam in Small mode (View - Small Mode)
 
@@ -44,9 +44,14 @@ sudo reboot
 | RPI 5 16GB | Lamplight City | Ubuntu 24.04.3 LTS aarch64 | Proton Hotfix + PROTON_USE_WINED3D=1 %command% | Great
 | RPI 5 16GB | The Legend of Grimrock | Ubuntu 24.04.3 LTS aarch64 | Proton Hotfix + PROTON_USE_WINED3D=1 %command% | Acceptable
 | RPI 5 16GB | The Secret of Monkey Island Special Edition | Ubuntu 24.04.3 LTS aarch64 | Proton 9.0-4 + PROTON_USE_WINED3D=1 %command% | Great
+| RPI 5 16GB | The Secret of Monkey Island Special Edition | Raspberry Pi OS| Proton 9.0-4 + PROTON_USE_WINED3D=1 %command% | Not tested too much yet
 | RPI 5 16GB | The Elder Scrolls IV: Oblivion GotY | Ubuntu 24.04.3 LTS aarch64 | Proton ??? + PROTON_USE_WINED3D=1 %command% | Bad - like 20-30 fps at minimum settings and resolution (but, it works!)
 | RPI 5 16GB | Risen | Raspberry Pi OS 64-bit | Proton Hotfix + PROTON_USE_WINED3D=1 %command% | Bad - like 10-15 fps at minimum settings and resolution
 | RPI 5 16GB | Call of Duty: Black Ops | Raspberry Pi OS 64-bit | Proton Hotfix + PROTON_USE_WINED3D=1 %command% | Bad - like 5 fps at minimum settings and resolution (but, it works!)
+| RPI 5 16GB | Tormentum: Dark Sorrow | Raspberry Pi OS 64-bit | Proton 9.0.4 + PROTON_USE_WINED3D=1 %command% | Not tested too much yet
+| RPI 5 16GB | Streets of Rage 4 | Raspberry Pi OS 64-bit | ? | Great, 40-50 fps at 1280x720
+| RPI 5 16GB | Turtles: Shredder's Revenge | Raspberry Pi OS 64-bit | ? | Not tested too much yet
+| RPI 5 16GB | Ducktales | Raspberry Pi OS 64-bit | ? | Not tested too much yet
 
 ## GoG
 
@@ -56,6 +61,10 @@ sudo reboot
 | RPI 5 16GB | Fallout 2 Classic | Ubuntu 24.04.3 LTS aarch64 | Lutris + GoG exe installation + wine-ge-8-26-x86_64 | Acceptable
 | RPI 5 16GB | Full Throttle Remastered | Ubuntu 24.04.3 LTS aarch64 | Lutris + GoG exe installation + wine-ge-8-26-x86_64 | Great
 | RPI 5 16GB | Shadowgate | Ubuntu 24.04.3 LTS aarch64 | Lutris + GoG exe installation + wine-ge-8-26-x86_64 | Good
+| RPI 5 16GB | Crysis Warhead | Raspberry Pi OS | Lutris + GoG exe installation + System (9.17) + disable dxvk/d3d | Good, around 16-30 fps
+| RPI 5 16GB | Max Payne | Raspberry Pi OS | Lutris + GoG exe installation + ? | Good
+| RPI 5 16GB | GTA: San Andreas | Raspberry Pi OS | Lutris + ISO installation + ? | Acceptable
+| RPI 5 16GB | Need for Speed Underground | Raspberry Pi OS | Lutris + ISO installation | Good at lowest settings
 
 ## Other
 
